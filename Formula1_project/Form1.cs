@@ -256,7 +256,7 @@ namespace Formula1_project
             if (nomeColonnaDaMostrare != "Mostra tutto" && nomeColonnaDaMostrare != "")
             {
                 sql1 = "SELECT " + nomeColonnaDaMostrare + " FROM piloti ";
-                MessageBox.Show(nomeColonnaDaMostrare);
+                //MessageBox.Show(nomeColonnaDaMostrare);
             }
 
             if (!string.IsNullOrEmpty(textBox1.Text))
@@ -280,7 +280,7 @@ namespace Formula1_project
 
             if (radioButton4.Checked == true)
             {
-                sql1 += "ORDER BY Cognome";
+                sql1 += "ORDER BY Nome, Cognome DESC";
             }
 
             sql1 += ";";
@@ -373,12 +373,12 @@ namespace Formula1_project
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
-            text_changed2();
+            text_changed1();
         }
 
         private void radioButton5_CheckedChanged(object sender, EventArgs e)
         {
-            text_changed2();
+            text_changed1();
         }
     }
 }
