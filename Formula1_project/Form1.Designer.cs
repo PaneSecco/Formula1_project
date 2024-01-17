@@ -124,11 +124,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(26, 231);
+            this.label3.Location = new System.Drawing.Point(26, 237);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 16);
+            this.label3.Size = new System.Drawing.Size(95, 16);
             this.label3.TabIndex = 8;
-            this.label3.Text = "Filtro per team";
+            this.label3.Text = "Filtro per team:";
             // 
             // textBox3
             // 
@@ -143,9 +143,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(26, 149);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 16);
+            this.label1.Size = new System.Drawing.Size(122, 16);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Filtro per cognome";
+            this.label1.Text = "Filtro per cognome:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1
@@ -217,18 +217,18 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(19, 225);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 16);
+            this.label4.Size = new System.Drawing.Size(49, 16);
             this.label4.TabIndex = 9;
-            this.label4.Text = "Attività";
+            this.label4.Text = "Attività:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(19, 141);
+            this.label2.Location = new System.Drawing.Point(19, 146);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 16);
+            this.label2.Size = new System.Drawing.Size(102, 16);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Filtro per Nome";
+            this.label2.Text = "Filtro per Nome:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox2
@@ -300,9 +300,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(26, 328);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(50, 16);
+            this.label5.Size = new System.Drawing.Size(189, 16);
             this.label5.TabIndex = 11;
-            this.label5.Text = "Ordine:";
+            this.label5.Text = "Ordine (per nome e cognome):";
             // 
             // Form1
             // 
