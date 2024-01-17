@@ -256,12 +256,13 @@ namespace Formula1_project
             if (nomeColonnaDaMostrare != "Mostra tutto" && nomeColonnaDaMostrare != "")
             {
                 sql1 = "SELECT " + nomeColonnaDaMostrare + " FROM piloti ";
+                MessageBox.Show(nomeColonnaDaMostrare);
             }
 
             if (!string.IsNullOrEmpty(textBox1.Text))
             {
                 num_sql++;
-                sql1 = "SELECT * FROM piloti WHERE Cognome LIKE '" + textBox1.Text + "%'";
+                sql1 += "WHERE Cognome LIKE '" + textBox1.Text + "%'";
             }
 
             if (!string.IsNullOrEmpty(textBox3.Text))
@@ -273,7 +274,7 @@ namespace Formula1_project
                 }
                 else
                 {
-                    sql1 = "SELECT * FROM piloti WHERE Team LIKE '" + textBox3.Text + "%'";
+                    sql1 += "WHERE Team LIKE '" + textBox3.Text + "%'";
                 }
             }
 
